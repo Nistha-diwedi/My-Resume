@@ -1,0 +1,33 @@
+/* selects wholepage  */
+html{
+    background:burlywood;
+    border:10px solid brown;
+    border-width: 20px 20px 20px 20px;
+    padding: 20px;
+    /* for 4 values it goes like : top, right, bottom, left
+    for 2 values it goes like : top+bottom, left+right */
+    margin: 5px;
+}
+/* element selector */
+h2{
+    color:brown;
+}
+/* class selector :selects many element having same class*/
+.hey{
+    color:maroon; 
+    font-size:2rem;
+    font-weight:bold;
+    font-family:sans-serif;
+}
+/* id selector :selects one element having one id */
+#main{
+    color:darkblue;
+}
+/* draggable selector */
+h2[draggable]{
+    color:blueviolet;
+}
+/* universal selector */
+*{
+    color:indigo;
+}
